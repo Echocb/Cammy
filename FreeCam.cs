@@ -13,7 +13,7 @@ namespace Cammy
         public static bool Enabled => gameCamera != null;
 
         private static bool locked = false;
-        private static float speed = 1;
+        private static float speed = .3;
         public static Vector3 position;
         private static bool onDeath = false;
         private static bool onDeathActivated = false;
